@@ -1,0 +1,117 @@
+/*Header styles*/
+.header{
+    background-image: url('images/banner/banner3.png');
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    background-repeat: no-repeat;
+}
+.header-title{
+    color: aliceblue;
+    font-weight:900 ;
+    font-size: 70px;
+
+}
+.header-description{
+    color: antiquewhite;
+    font-weight: 500;
+}
+.button-primary{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+}
+/*Styles of my failure section*/
+.failure-container{
+  display: flex;
+  padding: 150px;
+  gap: 50px;
+}
+.section{
+  margin-top: 250px;
+}
+.failure-title{
+    font-weight: 900;
+}
+/*styles of my plan*/
+.section-title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 40px;
+    
+}
+.my-plans-container{
+    display: flex;
+    justify-content:space-around ;
+    padding: 150px;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 900;
+}
+.plan-description{
+    text-align: center;
+}
+/*Gradiant styles*/
+.gradiant{
+    background-image: url('images/gradient1.png'),url('images/watch.png');
+    background-repeat: no-repeat;
+    margin-right:0px;
+    margin-left: 120px;
+    padding-left: 40px;
+    padding-bottom: 120px;
+
+}
+.positive{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 40px;
+    color: aliceblue;
+    font-weight: 600;
+    
+
+}
+.footer-container{
+    background-color: black;
+    color: aliceblue;
+    height: 400px;
+    display: flex;
+    padding-left: 60px;
+}
+.sub-btn{
+    height: 45px;
+    border-radius: 5px;
+    border-color: grey;
+    font-size: 20px;
+    font-weight: 600;
+    color:red;
+    background-color: black;
+
+    
+
+}
+#email{
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    background-color: black;
+}
+/*styles of about me section*/
+.about{
+    text-align: center;
+    background-color:burlywood;
+    color: rgb(34, 34, 34);
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 80px;
+    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
